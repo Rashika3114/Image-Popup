@@ -11,6 +11,7 @@ body {
     width: 100%;
     height: max-content;
 }
+
 .one {
     margin-top: 15px;
     display: flex;
@@ -39,7 +40,7 @@ body {
 }
 
 #ctr_gallery {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -50,8 +51,10 @@ body {
 
 #ctr_gallery img {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    flex-grow: 1;
-    flex-basis: 11%;
+    width: 100px;
+    height: 100px;
+    flex-grow: 2;
+    flex-basis: 40%;
     border-radius: 15px;
     cursor: pointer;
     transition: transform 0.3s;
@@ -89,4 +92,5 @@ body {
     right: 10%;
     top: 10%;
 }
+
 
