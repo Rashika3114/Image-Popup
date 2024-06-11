@@ -90,14 +90,3 @@ body {
     top: 10%;
 }
 
-@media (max-width: 600px) {
-    #ctr_gallery {
-        flex-direction: column;
-        width: 100px;
-        height: 150px;
-    }
-
-    .gal {
-        flex-direction: column;
-    }
-}
